@@ -15,12 +15,11 @@ npm run dev
 npm run build
 ```
 
-## Pour créer un module independant. Il ne s'agit pas d'un pur composant web
-## Pour cela voir https://karol-f.github.io/vue-custom-element/#/
+# Créer un module independant
+Pour cela voir https://karol-f.github.io/vue-custom-element/#/
 ```bash
 
 npm run build:umd
-
 ```
 
 
