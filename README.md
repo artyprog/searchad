@@ -24,11 +24,10 @@
 
 ## Création d'une application VueJS
 Ici le point d'entrée est le fichier *src/main.js*
-Le fichier dist/app.js contient tout ce qu'il faut pour lancer l'application VueJS
+Le fichier résultant *dist/app.js* contient tout ce qu'il faut pour lancer l'application VueJS
 
 ### Développement de l'application
 Durant cette phase, un serveur http est lancée sur le port 8080.
-
 Toute modification d'un des fichiers du projet provoque le reload du serveur.
 ```bash
 npm run dev
