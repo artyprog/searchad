@@ -63,7 +63,7 @@ Un console.log du composant donne le résultat suivant:
 ```javascript
 console.log(SearchAD.default)
   
-Object { name: "search-comp", render: r(), staticRenderFns: Array[0], _compiled: true }
+Object { name: "searchad-comp", render: r(), staticRenderFns: Array[0], _compiled: true, _Ctor: Object[1], inject: Object }
 ```  
 
 Il peut s'intégrer alors dans n'importe qu'elle autre application VueJS.  
