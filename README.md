@@ -62,10 +62,7 @@ Un console.log du composant donne le résultat suivant:
 
 ```javascript
 console.log(SearchAD.default)
-```  
-Résultat :  
-
-```javascript
+  
 Object { name: "search-comp", render: r(), staticRenderFns: Array[0], _compiled: true }
 ```  
 
