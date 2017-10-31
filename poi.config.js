@@ -2,9 +2,9 @@ const webpack = require('webpack');
 const glob = require('glob').sync;
 
 module.exports = {
-  entry: glob('./src/**/*.vue'),
+  entry: glob('./src/**/SearchAD.vue'),
   filename: {
-    js: 'searchcomp.min.js',
+    js: 'searchad.min.js',
   },
   sourceMap: false,
   html: true,
