@@ -8,11 +8,11 @@
 # installation des dépendances
 npm install
 
-# serve with hot reload at localhost:8080
+# sert avec  'hot reload'  sur  localhost:8080
 npm run dev
 
-# build for production with minification
+# build  production et minification
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
