@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 const glob = require('glob').sync;
 
 module.exports = {
