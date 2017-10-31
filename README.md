@@ -78,7 +78,6 @@ Ou de façon autonome comme représenté dans le code ci-dessous
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.min.js"></script>
   </head>
   <body>
-    HelloXZT
     <div id="app">
       <searchad-comp></searchad-comp>
     </div>
