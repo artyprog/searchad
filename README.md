@@ -54,10 +54,21 @@ Ici le point d'entrée est le fichier 'src/components/SearchComp.vue'
 ```
 
 Un fois compilé par VueJS, le fichier résultant  *dist/searchad.js*, permet d'accéder de façon globale au composant.  
-Dans le navigateur le composant est accessible sous le nom *SearchAD.default*
+Dans le navigateur le composant est accessible sous le nom *SearchAD.default*.
 ```bash
 npm run build:umd
-```
+```  
+Un console.log du composant donne le résultat suivant:  
+
+```javascript
+console.log(SearchAD.default)
+```  
+Résultat :  
+
+```javascript
+Object { name: "search-comp", render: r(), staticRenderFns: Array[0], _compiled: true }
+```  
+
 Il peut s'intégrer alors dans n'importe qu'elle autre application VueJS.  
 Ou de façon autonome comme représenté dans le code ci-dessous  
 
