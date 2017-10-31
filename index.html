@@ -6,13 +6,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.min.js"></script>
   </head>
   <body>
-    HelloX
+    HelloXZT
     <div id="app">
-      <search-comp></search-comp>
+      <searchad-comp></searchad-comp>
     </div>
     <script src="./dist/searchad.min.js"></script>
-    <script>      
-        new Vue({ el : '#app'})
+    <script>  
+        new Vue({ 
+            el : '#app',
+            components : {
+              'searchad-comp' : SearchAD.default
+            }
+          })
     </script>  
   </body>
 </html>

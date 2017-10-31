@@ -70,7 +70,7 @@ Il peut s'intégrer alors dans n'importe qu'elle autre application VueJS.
 Ou de façon autonome comme représenté dans le code ci-dessous  
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -78,13 +78,18 @@ Ou de façon autonome comme représenté dans le code ci-dessous
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.min.js"></script>
   </head>
   <body>
-    Hello
+    HelloXZT
     <div id="app">
-      <search-comp></search-comp>
+      <searchad-comp></searchad-comp>
     </div>
-    <script src="./dist/searchad.js"></script>
-    <script>      
-        new Vue({ el : '#app'})
+    <script src="./dist/searchad.min.js"></script>
+    <script>  
+        new Vue({ 
+            el : '#app',
+            components : {
+              'searchad-comp' : SearchAD.default
+            }
+          })
     </script>  
   </body>
 </html>

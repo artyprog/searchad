@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-import SearchComp from './components/SearchComp.vue'
+import SearchAD from './components/SearchAD.vue'
 
-Vue.component('search-comp', SearchComp)
+Vue.component('searchad-comp', SearchAD)
 
 new Vue({
   el: '#app',

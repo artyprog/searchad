@@ -3,7 +3,7 @@
     <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
 
-    <search-comp></search-comp>
+    <searchad-comp></searchad-comp>
   </div>
 </template>
 
