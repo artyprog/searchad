@@ -1,4 +1,4 @@
-# Projet de développemnt du composant SearchAD
+# Projet de développement du composant SearchAD
 
 
 ## Installation sur le poste de DEV
@@ -18,9 +18,6 @@
 	```bash
 	npm i
 	```
-
-
-
 
 ## Création d'une application VueJS
 Ici le point d'entrée est le fichier *src/main.js*  
@@ -56,7 +53,8 @@ Ici le point d'entrée est le fichier 'src/components/SearchComp.vue'
 </script>
 ```
 
-Un fois compilé par VueJS, le fichier résultant:  *dist/searchad.js* est le fichier contenant le composant autonome.  
+Un fois compilé par VueJS, le fichier résultant  *dist/searchad.js*, permet d'accéder de façon globale au composant.  
+Dans le navigateur le composant est accessible sous le nom *SearchAD.default*
 ```bash
 npm run build:umd
 ```

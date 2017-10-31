@@ -8,5 +8,5 @@ module.exports = {
   },
   sourceMap: false,
   html: true,
-  moduleName: 'SearchComp'
+  moduleName: 'SearchAD'
 };
