@@ -27,8 +27,8 @@ Ici le point d'entrée est le fichier *src/main.js*
 Le fichier résultant *dist/app.js* contient tout ce qu'il faut pour lancer l'application VueJS
 
 ### Développement de l'application
-Durant cette phase, un serveur http est lancée sur le port 8080.
-Toute modification d'un des fichiers du projet provoque le reload du serveur.
+Durant cette phase, un serveur http est lancée sur le port 8080.  
+Toute modification d'un des fichiers du projet provoque le reload du serveur.  
 ```bash
 npm run dev
 ```
@@ -39,16 +39,13 @@ npm run build
 ```
 
 ## Création du module indépendant
-Ici le point d'entrée est le fichier 'src/components/SearchComp.vue'
-
-le fichier résultant *dist/searchad.js* est le fichier contenant le composant autonome.
+Ici le point d'entrée est le fichier 'src/components/SearchComp.vue'.  
+le fichier résultant *dist/searchad.js* est le fichier contenant le composant autonome.  
 ```bash
 npm run build:umd
 ```
-Il peut s'intégrer alors dans n'importe qu'elle autre application VueJS. 
-
-Ou de façon autonome comme représenté dans le code ci-dessous
-
+Il peut s'intégrer alors dans n'importe qu'elle autre application VueJS.  
+Ou de façon autonome comme représenté dans le code ci-dessous  
 
 ```html
 <!doctype html>
