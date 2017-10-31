@@ -3,7 +3,7 @@
 > Composant SearchAD
 
 
-# Installation sur le poste de DEV
+## Installation sur le poste de DEV
 
 1. Installer nodejs
 
@@ -24,21 +24,21 @@
 
 
 
-# Build Setup
+## Build Setup
 Ici le point d'entrée est le fichier *src/main.js*
 Le fichier dist/app.js contient tout ce qu'il faut pour lancer l'application VueJS
 
-# Lancement du serveur en mode 'DEV' sur localhost:8080
+## Lancement du serveur en mode 'DEV' sur localhost:8080
 ```bash
 npm run dev
 ```
 
-# build  production et minification
+## build  production et minification
 ```bash
 npm run build
 ```
 
-# Créer un module indépendant
+## Créer un module indépendant
 Ici le point d'entrée est le fichier 'src/components/SearchComp.vue'
 
 le fichier résultant *dist/searchad.js* est le fichier contenant le composant autonome.
