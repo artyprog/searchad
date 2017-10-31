@@ -29,7 +29,9 @@ Ici le point d'entrée est le fichier *src/main.js*
 Le fichier dist/app.js contient tout ce qu'il faut pour lancer l'application VueJS
 
 # Lancement du serveur en mode 'DEV' sur localhost:8080
+```bash
 npm run dev
+```
 
 # build  production et minification
 ```bash
