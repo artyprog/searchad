@@ -15,7 +15,7 @@
 	git clone https://github.com/sclodysee/searchad.git  ./searchad
 	```
 
-4. Lancer la commande
+4. Lancer la commande permettant d'installer les dépendances
 
 	```bash
 	npm i
@@ -28,18 +28,15 @@
 Ici le point d'entrée est le fichier *src/main.js*
 Le fichier dist/app.js contient tout ce qu'il faut pour lancer l'application VueJS
 
-``` bash
-# installation des dépendances
-npm install
-
-# sert avec  'hot reload'  sur  localhost:8080
+# Lancement du serveur en mode 'DEV' sur localhost:8080
 npm run dev
 
-# build  production et minification
+# build  production et minification (fichier de sortie : dist/app.js)
+```bash
 npm run build
 ```
 
-# Créer un module indépendant
+# Créer un module indépendant  (fichier de sortie : dist/searchad.js)
 Ici le point d'entrée est le fichier 'src/components/SearchComp.vue'
 
 le fichier résultant *dist/searchad.js* est le fichier contenant le composant autonome.
