@@ -6,19 +6,18 @@
 # Installation sur le poste de DEV
 Prérequis : 
 
-	Installer nodejs
+1. Installer nodejs
 
-
-1. Cloner le dépôt 
+2. Cloner le dépôt 
 
 	```bash
 	https://github.com/sclodysee/searchad.git
 	```
-
-2. Lancer la commande
+	
+3. Lancer la commande
 
 	```bash
-		npm i
+	npm i
 	```
 
 
