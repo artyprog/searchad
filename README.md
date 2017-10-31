@@ -18,13 +18,16 @@ npm run build
 ```
 
 # Créer un module indépendant
-Ici le point d'entrée est le fichier src/components/SearchComp.vue
-le fichier dist/searchad.js est le fichier contenant le composant 'autonome'
+Ici le point d'entrée est le fichier 'src/components/SearchComp.vue'
+
+le fichier résultant 'dist/searchad.js' est le fichier contenant le composant autonome.
 ```bash
 npm run build:umd
 ```
-Il peut s'intégrer alors dan n'importe qu'elle autre application VueJS.
-Ou de façon autonome :
+Il peut s'intégrer alors dans n'importe qu'elle autre application VueJS. 
+
+Ou de façon autonome comme représenté dans le code ci-dessous
+
 
 ```html
 <!doctype html>
