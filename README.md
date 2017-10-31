@@ -1,6 +1,4 @@
-# search-comp
-
-> Composant SearchAD
+# Projet de développemnt du composant SearchAD
 
 
 ## Installation sur le poste de DEV
