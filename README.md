@@ -31,12 +31,12 @@ Le fichier dist/app.js contient tout ce qu'il faut pour lancer l'application Vue
 # Lancement du serveur en mode 'DEV' sur localhost:8080
 npm run dev
 
-# build  production et minification (fichier de sortie : dist/app.js)
+# build  production et minification
 ```bash
 npm run build
 ```
 
-# Créer un module indépendant  (fichier de sortie : dist/searchad.js)
+# Créer un module indépendant
 Ici le point d'entrée est le fichier 'src/components/SearchComp.vue'
 
 le fichier résultant *dist/searchad.js* est le fichier contenant le composant autonome.
